@@ -1,0 +1,95 @@
+[
+  {
+    "name": "FLASK_ENV",
+    "value": "development"
+  },
+  {
+    "name": "FLASK_CONFIG",
+    "value": "development"
+  },
+  {
+    "name": "FLASK_APP",
+    "value": "application/wsgi.py"
+  },
+  {
+    "name": "SECRET_KEY",
+    "value": "super-secret-key-987654rtyhujjhbsouijy"
+  },
+  {
+    "name": "APPLICATION_DB",
+    "value": "registry"
+  },
+
+  {
+    "name": "USER_ENABLE_EMAIL",
+    "value": "False"
+  },
+  {
+    "name": "USER_ENABLE_CHANGE_USERNAME",
+    "value": "False"
+  },
+  {
+    "name": "USER_REQUIRE_RETYPE_PASSWORD",
+    "value": "False"
+  },
+  {
+    "name": "USER_ALLOW_LOGIN_WITHOUT_CONFIRMED_EMAIL",
+    "value": "True"
+  },
+  {
+    "name": "USER_APP_NAME",
+    "value": "Registry"
+  },
+  
+  {
+    "name": "MONGODB_SETTINGS",
+    "value": {
+      "alias":"registry",
+      "db": "registry",
+      "host": "db",
+      "port": 27017,
+      "username": "admin",
+      "password": "password",
+      "connect": "false"
+      }
+  },
+
+  {
+    "name": "MONGO_INITDB_ROOT_USERNAME",
+    "value": "admin"
+  },
+  {
+    "name": "MONGO_INITDB_ROOT_PASSWORD",
+    "value": "password"
+  },
+  {
+    "name": "MONGO_INITDB_DATABASE",
+    "value": "registry"
+  },
+  {
+    "name": "MONGODB_PORT",
+    "value": "27017"
+  },
+
+  {
+    "name": "MONGODB_USER",
+    "value": "registry_user"
+  },
+  {
+    "name": "MONGODB_PASSWORD",
+    "value": "password"
+  },
+  {
+    "name": "MONGODB_CONNECT",
+    "value": "False"
+  },
+  {
+    "name": "DEBUG_TB_PANELS",
+    "value": ["flask_mongoengine.panels.MongoDebugPanel", "flask_debugtoolbar.panels.timer.TimerDebugPanel", "flask_debugtoolbar.panels.headers.HeaderDebugPanel", "flask_debugtoolbar.panels.request_vars.RequestVarsDebugPanel", "flask_debugtoolbar.panels.config_vars.ConfigVarsDebugPanel", "flask_debugtoolbar.panels.template.TemplateDebugPanel", "flask_debugtoolbar.panels.logger.LoggingPanel", "flask_debugtoolbar.panels.route_list.RouteListDebugPanel", "flask_debugtoolbar.panels.profiler.ProfilerDebugPanel"]
+  },
+  {
+    "name": "DEBUG_TB_INTERCEPT_REDIRECTS",
+    "value": "False"
+  }
+ 
+]
